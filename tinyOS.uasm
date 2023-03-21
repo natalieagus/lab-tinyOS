@@ -186,7 +186,7 @@ SVCTbl:	UUO(HaltH)		| SVC(0): User-mode HALT instruction
 	UUO(WrChH)		| SVC(2): Write Character
 	UUO(GetKeyH)		| SVC(3): Get Key
 	UUO(HexPrtH)		| SVC(4): Hex Print
-	UUO(WaitH)		| SVC(5): Wait(S) ,,, S in R3
+	UUO(WaitH)		| SVC(5): Wait(S) , S in R3
 	UUO(SignalH)		| SVC(6): Signal(S), S in R3
 	UUO(YieldH)		| SVC(7): Yield()
 
